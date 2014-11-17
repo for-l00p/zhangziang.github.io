@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/pygments.css">
+    <script>
+        function ShowComment(){
+            var comment_list_id = document.getElementById("commentlist");
+            if( comment_list_id.style.display == "none" || comment_list_id.style.display == "" ){
+                comment_list_id.style.display = "block";
+            } else {
+                comment_list_id.style.display = "none";
+            }
+        }
+        function MouseOver(comment){
+            comment.style.background = "#357b9a";
+        }
+        function MouseOut(comment){
+            comment.style.background = "#333";
+        }
+    </script>
+</head>
+<body>
+<header>
+    <p><a href="/">Zh.Ang</a></p>
+</header>

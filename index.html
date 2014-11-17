@@ -1,0 +1,13 @@
+---
+layout: page
+---
+{% for post in site.posts %}
+{% if post != site.posts[0] %}
+<hr>
+{% endif %}
+<div class="articlelist">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p id="date_tag">Date: {{ post.date | date: "%b %-d, %Y" }}</p>
+    {{ post.excerpt }}
+</div>
+{% endfor %}

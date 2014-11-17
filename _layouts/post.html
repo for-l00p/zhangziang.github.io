@@ -1,0 +1,13 @@
+{% include header.html %}
+
+<article>
+    <h1>{{ page.title }}</h1>
+    <p id="date_tag">Date: {{ page.date | date: "%b %-d, %Y" }}</p>
+    {% if page.tags[0] %}
+    <p id="date_tag">Tags: {{ page.tags | join: ", " }}</p>
+    {% endif%}
+    <hr>
+    {{ content }}
+</article>
+{% include comment.html %}
+{% include footer.html %}
