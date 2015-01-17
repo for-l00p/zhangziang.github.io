@@ -28,6 +28,7 @@ header {
 .navitem a,.navitem a:link,.navitem a:visited,.navitem a:active,.navitem a:hover {
     color: #eee;
     text-decoration:none;
+    letter-spacing：0.5em;
 }
 #extractlist {
     margin: 50px 50px 10px 300px;
