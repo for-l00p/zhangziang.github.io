@@ -1,5 +1,5 @@
 # Site settings
-title: ZH.ANG
+title: zhangziang's blog
 email: zhangang1993@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   HI,MY NAME IS ZHANG ANG,A STU FROM CHINA.
@@ -8,4 +8,4 @@ url: "zhangziang.github.io" # the base hostname & protocol for your site
 encoding: UTF-8
 timezone: Asia/Chongqing
 # Build settings
-markdown: redcarpet 
+markdown: redcarpet
