@@ -35,3 +35,6 @@ header {
 .extract {
     margin-bottom: 50px;
 }
+code {
+    background: #f8f8f8;
+}
