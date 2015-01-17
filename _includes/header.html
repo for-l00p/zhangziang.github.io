@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_cn">
 <head>
     <meta charset="UTF-8">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/pygments.css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/typo.css" type="text/css">
+    <link rel="stylesheet" href="/css/pygments.css" type="text/css">
     <script>
-        function ShowComment(){
-            var comment_list_id = document.getElementById("commentlist");
-            if( comment_list_id.style.display == "none" || comment_list_id.style.display == "" ){
-                comment_list_id.style.display = "block";
-            } else {
-                comment_list_id.style.display = "none";
-            }
+        function  MouseOver(navitem){
+            navitem.style.background = "#000";
         }
-        function MouseOver(comment){
-            comment.style.background = "#357b9a";
-        }
-        function MouseOut(comment){
-            comment.style.background = "#333";
+        function MouseOut(navitem){
+            navitem.style.background = "#08c";
         }
     </script>
 </head>
 <body>
 <header>
-    <p><a href="/">Zh.Ang</a></p>
+    <img id="logo" src="/css/logo.jpg" alt=""/>
+    <div id="list">
+        <div onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" class="navitem">
+            <a href="/index.html">首页</a>
+        </div>
+        <div onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" class="navitem">
+            <a href="">存档</a>
+        </div>
+        <div onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" class="navitem">
+            <a href="/about">关于</a>
+        </div>
+    </div>
+    <div id="footer"><small style = "color: #eee;">貌似应该在这儿写点什么</small></div>
 </header>
