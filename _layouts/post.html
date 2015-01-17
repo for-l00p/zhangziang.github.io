@@ -1,10 +1,10 @@
 {% include header.html %}
 <div id = "extractlist">
     <h1>{{page.title}}</h1>
-    <small>{{ page.date | date_to_xmlschema }}</small>
+    <small>{{ page.date | date: "%F" }}</small>&nbsp;&nbsp;&nbsp;
     <small>{{ page.tags | join: ", " }}</small>
     <div class="typo">
-    {{page.content}}
+    {{content}}
     </div>
 </div>
 </body>
