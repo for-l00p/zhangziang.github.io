@@ -36,7 +36,9 @@ header {
 .extract {
     margin-bottom: 50px;
 }
-code {
+p code {
     background: #f8f8f8;
-    color: #2AA198;
+    color: #D14;
+    border: 1px solid #E1E1E8;
+    padding: 2px 4px;
 }
