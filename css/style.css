@@ -41,4 +41,6 @@ p code {
     color: #D14;
     border: 1px solid #E1E1E8;
     padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.8em;
 }
