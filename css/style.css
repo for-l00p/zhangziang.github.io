@@ -36,7 +36,7 @@ header {
 .extract {
     margin-bottom: 50px;
 }
-p code {
+p,li code {
     background: #f8f8f8;
     color: #D14;
     border: 1px solid #E1E1E8;
