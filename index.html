@@ -10,5 +10,8 @@ layout: page
         {{ post.excerpt }}
         <span><a href="{{ post.url }}">阅读全文</a></span>
     </div>
+    {% if page.next %}
+    <hr/>
+    {% endif%}
 </div>
 {% endfor %}
