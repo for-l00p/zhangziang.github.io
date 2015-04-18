@@ -36,7 +36,15 @@ header {
 .extract {
     margin-bottom: 50px;
 }
-p,li code {
+p code {
+    background: #f8f8f8;
+    color: #D14;
+    border: 1px solid #E1E1E8;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+li code {
     background: #f8f8f8;
     color: #D14;
     border: 1px solid #E1E1E8;
