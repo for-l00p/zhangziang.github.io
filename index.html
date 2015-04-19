@@ -11,7 +11,5 @@ layout: page
         <span><a href="{{ post.url }}">阅读全文</a></span>
     </div>
 </div>
-{% if post.next != nil %}
-<hr/>
-{% endif%}
+<p style="color:red;">{{ post.next }}</p>
 {% endfor %}
