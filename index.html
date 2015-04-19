@@ -11,5 +11,7 @@ layout: page
         <span><a href="{{ post.url }}">阅读全文</a></span>
     </div>
 </div>
-<p style="color:red;">{{ post.next }}</p>
+{% if post.previous %}
+<hr/>
+{% endif%}
 {% endfor %}
