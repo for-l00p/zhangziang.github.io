@@ -10,13 +10,13 @@ header {
     font-size: 1em;
 }
 #logo {
-    margin: 50px 50px;
+    margin: 50px 75px;
     border-radius: 50%;
     border-width: medium;
     border-style: solid;
     border-color: white;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 #footer {
     position: absolute;
@@ -24,7 +24,7 @@ header {
     bottom: 0;
 }
 .navitem {
-    padding-left: 70px;
+    padding-left: 110px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
