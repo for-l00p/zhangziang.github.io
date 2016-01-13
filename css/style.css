@@ -1,16 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 header {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     width: 250px;
+    padding-top: 1px;
     /*background: #00B0C8;*/
     background: #08c;
     color: #eee;
+    text-align: center;
     font-size: 1em;
 }
-#logo {
-    margin: 50px 75px;
+.logo {
+    margin: 50px 0;
+}
+.logo_image {
     border-radius: 50%;
     border-width: medium;
     border-style: solid;
@@ -18,25 +28,60 @@ header {
     width: 100px;
     height: 100px;
 }
-#footer {
-    position: absolute;
-    margin: 10px 10px;
-    bottom: 0;
+.logo_text {
+    display: none;
 }
-.navitem {
-    padding-left: 110px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    cursor: pointer;
+nav {
+    padding-bottom: 1px;
 }
-.navitem a,.navitem a:link,.navitem a:visited,.navitem a:active,.navitem a:hover {
+nav li {
+    margin-bottom: 10px;
+}
+nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
     color: #eee;
     text-decoration: none;
     letter-spacing: 0.5em;
 }
-#extractlist {
+.extractlist {
     margin: 50px 50px 50px 300px;
 }
+.extractlist h1 {
+    font-weight:600;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+       position: static;
+       width: 100%;
+    }
+    nav {
+        background: #005f8e;
+    }
+    nav li{
+        display: inline-block;
+        margin: 10px 10px;
+    }
+    .extractlist {
+        margin: 20px 20px 20px 20px;
+    }
+    .extractlist h1 {
+        font-weight:400;
+        text-align: center;
+    }
+    .logo {
+        margin: 20px 0;
+    }
+    .logo_image {
+        display: none;
+    }
+    .logo_text {
+        display: block;
+    }
+}
+
 .extract {
     margin: 20px 0;
 }

@@ -2,32 +2,26 @@
 <html lang="zh_cn">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link rel="stylesheet" href="/css/typo.css" type="text/css">
     <link rel="stylesheet" href="/css/pygments.css" type="text/css">
-    <script>
-        function  MouseOver(navitem){
-            navitem.style.background = "#000";
-        }
-        function MouseOut(navitem){
-            navitem.style.background = "#08c";
-        }
-    </script>
+    <link rel="stylesheet" href="/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 <body>
 <header>
-    <img id="logo" src="/css/logo.png" alt=""/>
-    <div id="list">
-        <div onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="location.href='http://zhangziang.github.io';" class="navitem">
-            首页
-        </div>
-        <div onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="location.href='http://zhangziang.github.io/archive';" class="navitem">
-            归档
-        </div>
-        <div onmouseover="MouseOver(this)" onmouseout="MouseOut(this)" onclick="location.href='http://zhangziang.github.io/about';" class="navitem">
-            关于
-        </div>
+    <div class='logo'>
+        <img class="logo_image" src="css/logo.png" alt=""/>
+        <h1 class="logo_text">什么都没有</h1>
     </div>
-    <div id="footer"><small style = "color: #eee;">貌似应该在这儿写点什么</small></div>
+    <nav>
+        <ul>
+            <li><a href="http://zhangziang.github.io">首页</a></li>
+            <li><a href="http://zhangziang.github.io/archive">归档</a></li>
+            <li><a href="http://zhangziang.github.io/about">关于</a></li>
+        </ul>
+    </nav>
 </header>
