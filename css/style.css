@@ -30,6 +30,7 @@ header {
 }
 .logo_text {
     display: none;
+    color: #fff;
 }
 nav {
     padding-bottom: 1px;
@@ -47,6 +48,14 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
 }
 .extractlist h1 {
     font-weight:600;
+}
+
+.extract {
+    margin: 20px 0;
+}
+.extract .title h1 {
+    font-weight: 600;
+    font-size: 1.4;
 }
 
 @media (max-width: 600px) {
@@ -80,11 +89,11 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
     .logo_text {
         display: block;
     }
+    .extract .title h1 {
+        font-weight:400;
+    }
 }
 
-.extract {
-    margin: 20px 0;
-}
 p code {
     background: #f8f8f8;
     color: #D14;
