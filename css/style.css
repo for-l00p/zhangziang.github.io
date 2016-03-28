@@ -60,12 +60,10 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
 }
 
 @media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
     header {
-       position: static;
-       width: 100%;
+        font-size: 14px;
+        position: static;
+        width: 100%;
     }
     nav {
         background: #005f8e;
