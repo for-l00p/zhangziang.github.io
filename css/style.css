@@ -48,14 +48,15 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
     margin: 50px 50px 50px 300px;
 }
 .extractlist h1 {
-    font-weight:600;
+    font-weight: normal;
+    font-size: 1.6em;
 }
 
 .extract {
     margin: 20px 0;
 }
 .extract .title h1 {
-    font-weight: 600;
+    font-weight: normal;
     font-size: 1.4em;
 }
 
@@ -76,7 +77,6 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
         margin: 20px 20px 20px 20px;
     }
     .extractlist h1 {
-        font-weight:400;
         text-align: center;
     }
     .logo {
@@ -87,9 +87,6 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
     }
     .logo_text {
         display: block;
-    }
-    .extract .title h1 {
-        font-weight:400;
     }
 }
 
