@@ -11,8 +11,7 @@ header {
     left: 0;
     width: 250px;
     padding-top: 1px;
-    /*background: #00B0C8;*/
-    background: #08c;
+    background: #507ea4;
     color: #eee;
     text-align: center;
     font-size: 1em;
@@ -114,4 +113,12 @@ li code {
     padding: 2px 4px;
     border-radius: 3px;
     font-size: 0.8em;
+}
+
+::-moz-selection{
+  background: #507ea4 !important;
+}
+
+::selection{
+  background: #507ea4 !important;
 }
