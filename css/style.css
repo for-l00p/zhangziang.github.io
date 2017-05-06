@@ -36,9 +36,9 @@ nav {
     padding-bottom: 1px;
 }
 nav li {
-    padding: 0 5px;
+    padding: 5px 0;
 }
-nav li:onhover {
+nav li:hover {
     background: #333;
 }
 nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
