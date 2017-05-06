@@ -35,11 +35,10 @@ header {
 nav {
     padding-bottom: 1px;
 }
-nav li {
-    padding: 5px 0;
-}
+
 nav li a{
-    width: 100%;
+    padding: 5px 0;
+    display: block;
 }
 nav li a:hover {
     background: #333;
@@ -79,6 +78,9 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
         display: inline-block;
         margin: 10px 10px;
         padding: 0 !important;
+    }
+    nav li a:hover {
+        background: #005f8e !important;
     }
     .extractlist {
         margin: 20px 20px 20px 20px;
