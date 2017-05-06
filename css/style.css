@@ -36,7 +36,10 @@ nav {
     padding-bottom: 1px;
 }
 nav li {
-    margin-bottom: 10px;
+    padding: 0 5px;
+}
+nav li:onhover {
+    background: #333;
 }
 nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
     color: #eee;
@@ -72,6 +75,7 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
     nav li{
         display: inline-block;
         margin: 10px 10px;
+        padding: 0 !important;
     }
     .extractlist {
         margin: 20px 20px 20px 20px;
