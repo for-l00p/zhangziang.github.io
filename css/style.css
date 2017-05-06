@@ -38,7 +38,10 @@ nav {
 nav li {
     padding: 5px 0;
 }
-nav li:hover {
+nav li a{
+    width: 100%;
+}
+nav li a:hover {
     background: #333;
 }
 nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
