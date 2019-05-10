@@ -11,7 +11,9 @@ header {
     left: 0;
     width: 250px;
     padding-top: 1px;
-    background: #507ea4;
+    background: #434C5E;
+    background: -webkit-linear-gradient(to left, #434C5E, #5E81AC);
+    background: linear-gradient(to bottom, #434C5E, #5E81AC);
     color: #fff;
     text-align: center;
     font-size: 1em;
@@ -69,6 +71,7 @@ nav a,nav a:link,nav a:visited,nav a:active,nav a:hover{
         font-size: 14px;
         position: static;
         width: 100%;
+        background: #507ea4 !important;
     }
     nav {
         background: #005f8e;
